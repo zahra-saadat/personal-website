@@ -20,10 +20,10 @@ const Header = () =>{
             </div>
             <div className="col-sm-6">
                 <ul className="nav justify-content-end">
-                    <li className="nav-item">
+                    <li className="nav-item border-end">
                     <Link to={"/resume"} className="nav-link text-black">Resume</Link>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item border-end">
                     <Link to={"/projects"} className="nav-link text-black">Projects</Link>
                     </li>
                     <li className="nav-item">

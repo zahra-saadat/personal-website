@@ -4,7 +4,7 @@ const Home = () => {
  return <div className="container-fluid">
     <div className="row mt-5">
         <div className="col-sm-6 pt-3">
-            <img src={photo} alt="this is" className="float-end pt-5"></img>
+            <img src={photo} alt="this is" className="float-end mt-4 pt-5" width="450"></img>
         </div>
         <div className="col-sm-6 pt-5 mt-5">
             <div className="mt-5 pt-5 pb-0">

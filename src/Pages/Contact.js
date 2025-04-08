@@ -3,7 +3,7 @@ const Contact = () => {
         <div className="row mt-5">
             <div className="col-sm-6 mt-5">
                 <div className="ms-5 ps-5 mt-5 pt-5">
-                    <span className="h2 mt-5">Contact</span>
+                    <span className="h1 mt-5">Contact</span>
                     <p>Looking forward to hearing from you</p>
                     <div className="h5 mt-4">Phone</div>
                     <span>01234567</span>
@@ -11,14 +11,14 @@ const Contact = () => {
                     <span>me@mysite.com</span>
                 </div>
             </div>
-            <div className="col-sm-6 float-start mt-1 pt-5">
+            <div className="col-sm-6 float-start mt-1 ps-5 pt-5 pe-5">
                 <form className="mt-3 pt-5">
                     <div className="row pt-5">
-                        <div className="col pe-2">
+                        <div className="col-sm-6 pe-2">
                             <label className="">FirstName:</label>
                             <input type="text" className="form-control"></input>
                         </div>
-                        <div className="col">
+                        <div className="col-sm-6">
                             <label>LastName:</label>
                             <input type="text" className="form-control"></input>
                         </div>
@@ -34,13 +34,15 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className="row pt-3">
-                        <div className="col-sm-7">
+                        <div className="col">
                             <label>Message:</label>
-                            <textarea type="text" className="textarea form-control" rows={4} cols={40}></textarea>
+                            <textarea type="text" className="textarea form-control" rows={4} cols={100}></textarea>
                         </div>
-                        <div className="col-sm-5">
-                        <button type="button" className="btn btn-warning mt-4 border-50">Submit</button>
-                        <div/></div>
+                        <div className="row">
+                        <div className="col-sm d-grid">
+                        <button type="button" class="btn btn-warning ms-4 mt-4 btn-block">Submit</button>
+                        </div>
+                        </div>
                     </div>
                 </form>
             </div>
