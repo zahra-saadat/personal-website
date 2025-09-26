@@ -27,6 +27,16 @@ const Resume = () => {
                            to add your own content 
                            and make changes to the font. </p>
                      </div>
+                     <div >
+                        <span className="h5">Developer</span>
+                        <div>
+                           <p>I'm a paragraph. 
+                           Click here to add your own text and edit me. 
+                           It’s easy. Just click “Edit Text” or double click me 
+                           to add your own content 
+                           and make changes to the font. </p>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>

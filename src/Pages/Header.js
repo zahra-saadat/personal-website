@@ -4,7 +4,7 @@ import {faCircle} from "@fortawesome/free-solid-svg-icons"
 
 const Header = () =>{
     return(
-        <div class="container pt-3 pb-3 fixed-top border-bottom">
+        <div class="container pt-3 pb-1">
             <div className="row">
                 <div className="col-sm-6">
                 <ul className="nav">

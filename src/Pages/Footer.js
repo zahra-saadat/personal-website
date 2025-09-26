@@ -4,7 +4,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons/faGithub"
 
 const Footer = () =>{
     return(
-        <div className="container border-top pt-3 pb-5 mt-5 fixed-bottom">
+        <div className="container border-top pt-3 pb-5 mt-5">
             <div className="row">
                 <div className="col-sm-3">
                     <div className="h5">Phone</div>
